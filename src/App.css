@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  /*text-align: center;*/
+}
+
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.app-title > h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  font-size: 70px;
+  font-style: italic;
+  text-align: center;
+}
+
+.app-title{
+  margin-bottom: 50px;
+}
+
+.fa-shopping-cart{
+  font-size: 1.7em;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+a:any-link{
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.fa-shopping-cart::after{
+        content:attr(value);
+        font-size:20px;
+        color: #ffffff;
+        background: #999999;
+        border-radius:5px;
+        padding: 0 5px;
+        position:relative;
+        left:-10px;
+        top:-20px;
+}
+
+.nav-item > button{
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+
+.products-container{
+  margin-top: 60px;
+}
+
+.card{
+  margin: 5px 20px 30px 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.category-title::first-letter{
+  text-transform: capitalize;
+}
+
+.category{
+  margin-top: 50px;
+}
+
+.cartTitle{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600;
+}
